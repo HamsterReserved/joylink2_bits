@@ -5,7 +5,7 @@
 --
 
 MAGIC_ENUM = {[0x123455bb] = "LAN Access", [0x123455cc] = "Cloud Access"}
-ENCRYPTION_ENUM = {[0] = "Plain Text", [1] = "Static AES", [2] = "ECDH", [3] = "Dynamic AES"}
+ENCRYPTION_ENUM = {[0] = "Clear Text", [1] = "Static AES", [2] = "ECDH", [3] = "Dynamic AES"}
 TYPE_ENUM = {[1] = "Device Discovery", [2] = "Device Authorization", [3] = "Data Transfer (JSON)",
             [4] = "Data Transfer (Script)", [7] = "OTA Upgrade", [8] = "OTA Upgrade Status Report",
             [9] = "Cloud Device Authentication", [10] = "Heartbeat", [11] = "Cloud Command",
